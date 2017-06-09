@@ -1,4 +1,5 @@
 <?php
+namespace Kirrie\Encryption;
 
 /**
  * Copyright (c) 2016 rryqszq4
@@ -213,7 +214,5 @@ class Tea
         $data = self::decrypt($data, pack("H*", $k));
         var_dump(bin2hex($data));
     }
-
 }
-
 ?>
