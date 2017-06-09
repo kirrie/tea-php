@@ -1,7 +1,6 @@
 {
 	"name": "kirrie/tea-php",
 	"description": "tiny encryption algorithm php implementation",
-	"type": "package",
 	"authors": [
 		{
 			"name": "kirrie",
